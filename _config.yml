@@ -23,7 +23,7 @@ email: r07521529@g.ntu.edu.tw
 description: >- # this means to ignore newlines until "baseurl:"
                 覺得學過的東西忘掉很可惜，留點記錄在這
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site, e.g. http://example.com
+url: "https://imashelywu.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: jekyllrb
 github_username:  jekyll
 
@@ -52,3 +52,4 @@ minimal_mistakes_skin: "dark"
 #   - vendor/cache/
 #   - vendor/gems/
 #   - vendor/ruby/
+BASE_PATH : /assets/images
