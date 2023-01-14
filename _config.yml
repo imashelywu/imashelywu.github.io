@@ -33,6 +33,27 @@ plugins:
   - jekyll-feed
   - jekyll-include-cache
 minimal_mistakes_skin: "dark" 
+breadcrumbs: true 
+
+words_per_minute: 50
+
+repository: "imashelywu/imashelywu.github.io"
+
+comments:
+  provider: "utterances"
+  utterances:
+    theme: "github-dark" # "github-light"
+    issue_term: "pathname"
+    label: "comment" # Optional - must be existing label.
+
+defaults:
+  # _posts
+  - scope:
+      path: ""
+      type: posts
+    values:
+      read_time: true
+      comments: true
 # Exclude from processing.
 # The following items will not be processed, by default.
 # Any item listed under the `exclude:` key here will be automatically added to
