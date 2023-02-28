@@ -1,11 +1,17 @@
-# GitHub Page
+---
+toc: true
+toc_label: "My Table of Contents"
+toc_icon: "cog"
+---
 
 一直以來都想建立個人網站，一方面面試時方便呈現自己的能力，一方面也是因為自己記憶力太差，本來打算用wordpress，但對我來說門檻還是有高，後來才發現GitHub Page，建立相當簡單，而且看起來有自己的網域，因此記錄一下步驟供自己和有需要的人參考。
 
-<aside>
+<!-- <aside> -->
 💡 本篇對象為已有 git 基礎，但對架設 GitHub Page 網站一竅不通的人
 
-</aside>
+
+<!-- </aside> -->
+
 
 # 如何建立自己的網站?
 
@@ -41,6 +47,7 @@
     
     ![Preview](/assets/images/2022-12-11/Untitled%202.png)
     
+
 
 # 好醜, 可以變好看嗎?
 
@@ -104,6 +111,7 @@ Btw 以前 GitHub 有可以直接更改 theme 的選項，但後來為了安全�
     如果無法執行，可能是因為webrick ，只要執行`bundle add webrick`即可 ([https://talk.jekyllrb.com/t/load-error-cannot-load-such-file-webrick/5417/3](https://talk.jekyllrb.com/t/load-error-cannot-load-such-file-webrick/5417/3))
     
 
+
 # 如何新增文章?
 
 1. 新增markdown檔案
@@ -120,9 +128,11 @@ Btw 以前 GitHub 有可以直接更改 theme 的選項，但後來為了安全�
 2. 將檔案移至_posts
 3. 再執行 `bundle exec jekyll serve` 就可以看到文章啦
 
+
 # Summary
 
 本篇記錄了如何從無到有建立 GitHub Pages 的網站，尚有許多項目還未完成，例如版面的 layout、文章category、images如何一起與文章管理、留言板等等，希望接下來能較系統化地整理這些資訊。以上如果有不對或值得補充的地方，請不吝指教！
+
 
 
 # Reference

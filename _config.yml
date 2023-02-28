@@ -18,6 +18,9 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
+include: ["_pages"]
+github: [metadata]
+
 title: Lazy Software Engineer
 email: r07521529@g.ntu.edu.tw
 description: >- # this means to ignore newlines until "baseurl:"
@@ -27,24 +30,41 @@ url: "https://imashelywu.github.io" # the base hostname & protocol for your site
 twitter_username: jekyllrb
 github_username:  jekyll
 
+logo: "/assets/images/logo_test_rm.png"
+masthead_title: "Still Constructing..."
+
+author: Ashely Wu
+
+
 # Build settings
 remote_theme: "mmistakes/minimal-mistakes@4.24.0"
 plugins:
   - jekyll-feed
   - jekyll-include-cache
-minimal_mistakes_skin: "dark" 
+minimal_mistakes_skin: "dirt" 
+
 breadcrumbs: true 
+breadcrumb_home_label : "Home"
+breadcrumb_separator  : "/"
+
+paginate: 2 # amount of posts to show
+paginate_path: /page:num/
 
 words_per_minute: 50
 
 repository: "imashelywu/imashelywu.github.io"
+
+header:
+  image: /assets/images/wallpaper.jpg
+  image_description: "A description of the image"
+
+teaser: /assets/images/post_teaser.jpg
 
 comments:
   provider: "utterances"
   utterances:
     theme: "github-dark" # "github-light"
     issue_term: "pathname"
-    label: "comment" # Optional - must be existing label.
 
 defaults:
   # _posts
@@ -52,8 +72,22 @@ defaults:
       path: ""
       type: posts
     values:
+      layout: single
+      author_profile: true
       read_time: true
       comments: true
+      share: true
+      related: true
+      show_date: true
+
+ # _pages
+  - scope:
+      path: ""
+      type: pages
+    values:
+      # layout: single
+      author_profile: true
+
 # Exclude from processing.
 # The following items will not be processed, by default.
 # Any item listed under the `exclude:` key here will be automatically added to
