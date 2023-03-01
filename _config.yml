@@ -64,6 +64,7 @@ comments:
   provider: "utterances"
   utterances:
     #repo: "imashelywu/imashelywu.github.io.comments"
+    repo: "imashelywu/testcomments"
     theme: "dark-blue" # "github-light"
     issue_term: "pathname"
     
