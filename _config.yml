@@ -63,9 +63,10 @@ teaser: /assets/images/post_teaser.jpg
 comments:
   provider: "utterances"
   utterances:
-    repo: "imashelywu/imashelywu.github.io.comments"
+    #repo: "imashelywu/imashelywu.github.io.comments"
     theme: "dark-blue" # "github-light"
     issue_term: "pathname"
+    
 
 defaults:
   # _posts
