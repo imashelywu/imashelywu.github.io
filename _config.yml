@@ -63,7 +63,8 @@ teaser: /assets/images/post_teaser.jpg
 comments:
   provider: "utterances"
   utterances:
-    theme: "github-dark" # "github-light"
+    repo: "imashelywu/imashelywu.github.io.comments"
+    theme: "dark-blue" # "github-light"
     issue_term: "pathname"
 
 defaults:
